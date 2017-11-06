@@ -1,0 +1,42 @@
+{
+  "name": "com.tp_dev.ynov",
+  "displayName": "TP_dev",
+  "version": "1.0.0",
+  "description": "A sample Apache Cordova application that responds to the deviceready event.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Apache Cordova Team",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "cordova-android": "^6.2.3",
+    "cordova-ios": "^4.4.0",
+    "cordova-plugin-compat": "^1.0.0",
+    "cordova-plugin-device-motion": "^1.2.5",
+    "cordova-plugin-file": "^4.0.0",
+    "cordova-plugin-media": "^3.0.1",
+    "cordova-plugin-network-information": "^1.3.3",
+    "cordova-plugin-speechrecognition": "^1.1.2",
+    "cordova-plugin-tts": "^0.2.3",
+    "cordova-plugin-vibration": "^2.1.5",
+    "cordova-plugin-whitelist": "^1.3.2"
+  },
+  "cordova": {
+    "plugins": {
+      "cordova-plugin-whitelist": {},
+      "cordova-plugin-vibration": {},
+      "cordova-plugin-media": {
+        "MICROPHONE_USAGE_DESCRIPTION": " "
+      },
+      "cordova-plugin-device-motion": {},
+      "cordova-plugin-speechrecognition": {},
+      "cordova-plugin-tts": {},
+      "cordova-plugin-network-information": {}
+    },
+    "platforms": [
+      "android",
+      "ios"
+    ]
+  }
+}
